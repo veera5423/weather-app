@@ -12,13 +12,14 @@ function App() {
   return (
     <div>
       <NavBar/>
+      <SearchPage/>
       
       <Routes>
         <Route path="/" element={<SearchPage />} />
         <Route path="/features" element={<Features/>}/>
         <Route path="/about" element={<About/>}/>
       </Routes>
-      <SearchPage/>
+      
 
       
 
