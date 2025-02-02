@@ -8,6 +8,7 @@ import "../pages/styles/footer.css"
 const Footer = () => {
   return (
     <footer className="footer">
+      <h1>Click home to see Home page</h1>
       <p>&copy; 2024 Weather App. All rights reserved.</p>
       <p>
         Built with ❤️ by <strong>Veeranajaneyulu.V</strong>.
